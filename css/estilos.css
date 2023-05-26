@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	pad: 0px;
+}
+body{
+	background-color: #D9F1EB;
+	font-family: "lucida sans";
+	display: grid;
+	grid-template-areas:
+	"header header header"
+	"aside aside main"
+	"footer footer footer";
+	grid-gap: 0.5rem;
+	grid-template-columns: 20rem auto 50px;
+	grid-template-rows: 100px 180vh 100px;
+}
+.o-header{
+	grid-area: header;
+}
+.o-aside{
+	grid-area: aside;
+}
+.o-main{
+	grid-area: main;
+}
+.o-footer{
+	grid-area: footer;
+}
+#cabecalho{
+	background-color: #8e8127;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+	background: linear-gradient(45deg, #214733, #326E4E, #76E9BA);
+	place-items: center;
+}
+#conteudo{
+	width: 960px;
+	margin: 0 auto, #326E4E;
+}
+.locais{
+	float: left;
+	width: 660px;
+	margin: 0 auto;
+}
+.vegetação{
+	background-color: #ffffff;
+	border: 1px solid #76E9BA;
+	margin: 10px;
+}
+.vegetação h2{
+	margin: 5px;
+	border-bottom: 1px dashed #76E9BA;
+}
+.vegetação p{
+	margin: 5px;
+}
+.clima{
+	background-color: #ffffff;
+	border: 1px solid #76E9BA;
+	margin: 10px;
+}
+.clima h2{
+	margin: 5px;
+	border-bottom: 1px dashed #76E9BA;
+}
+.clima p{
+	margin: 5px;
+}
+.relevo{
+	background-color: #ffffff;
+	border: 1px solid #76E9BA;
+	margin: 10px;
+}
+.relevo h2{
+	margin: 5px;
+	border-bottom: 1px dashed #76E9BA;
+}
+.relevo p{
+	margin: 5px;
+}
+.solo{
+	background-color: #ffffff;
+	border: 1px solid #76E9BA;
+	margin: 10px;
+}
+.solo h2{
+	margin: 5px;
+	border-bottom: 1px dashed #76E9BA;
+}
+.solo p{
+	margin: 5px;
+}
+img{
+	float: left;
+	margin: 10px;
+	border: 1px solid #76E9BA;
+}
+.clear{
+	clear: both;
+}
+.lateral{
+	float: right;
+	background-color: #ACDEC8;
+	border: 1px solid #76E9BA;
+	padding: 20px;
+	padding-right: 50px: ;
+	width: 240px;
+
+}
+.lateral ol{
+	margin-left: 20px;
+}
+#rodape{
+	background-color: #326E4E;
+	color: #ffffff;
+	padding: 10px;
+	text-align: center;
+}
